@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(228, 222, 222, 0.925);
+  }
+
+
+#grid-for-game {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1, p, button, label, select, div {
+    color:rgb(78, 77, 77);
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+}
+
+#game {
+    margin: 0;
+    display: grid;
+}
+
+
+.img-unmatched {
+    margin: -11px;
+}
+
+.img-matched {
+    margin: -11px;
+    height: 150px;
+    width: 150px;
+}
+
+
+
